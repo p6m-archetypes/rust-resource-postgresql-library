@@ -1,0 +1,15 @@
+---
+description: "Rust PostgreSQL Persistence — sqlx + PostgreSQL persistence crate for Cargo workspace services"
+summary: >
+  Generates a _persistence Cargo crate with sqlx (postgres), PersistencePool,
+  PersistenceSettings, and a baseline Flyway-style migration. Consumed as a library
+  by Rust service archetypes. Requires the workspace Cargo.toml to declare the crate.
+authors: ["Jimmie Fulton <jimmie@ybor.ai>"]
+tags: ["library", "rust", "persistence", "postgresql", "sqlx"]
+
+requires:
+  archetect: "3.0.0"
+
+templating:
+  trim_blocks: true
+  lstrip_blocks: true
