@@ -1,8 +1,8 @@
 pub mod settings;
 
 use anyhow::Result;
-use sqlx::PgPool;
 use settings::PersistenceSettings;
+use sqlx::PgPool;
 
 pub use sqlx::PgPool as DbPool;
 
