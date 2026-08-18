@@ -1,5 +1,5 @@
 [package]
-name = "{{ prefix_name }}_{{ suffix_name }}_persistence"
+name = "{{ project_name }}_persistence"
 version.workspace = true
 edition.workspace = true
 

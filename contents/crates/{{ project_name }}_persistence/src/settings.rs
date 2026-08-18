@@ -31,5 +31,5 @@ fn url_from_env() -> String {
     ) {
         return format!("postgres://{}:{}@{}:{}/{}", user, pass, host, port, db);
     }
-    "postgres://dev:dev@localhost/{{ prefix_name }}_{{ suffix_name }}".to_string()
+    "postgres://dev:dev@localhost/{{ project_name }}".to_string()
 }
